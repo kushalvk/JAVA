@@ -1,6 +1,6 @@
 // Type convartion and casting
 
-public class TypeConvartion_Casting {
+public class TypeConvartion_Casting_05 {
     public static void main(String[] args) {
         
         byte b = 127;
