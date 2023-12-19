@@ -5,5 +5,6 @@ public class While_loop_02 {
             System.out.println("HI...! Kushal " + i);
             i++;
         }
+        System.out.println("Bye " + i);
     }
 }
