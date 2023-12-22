@@ -1,4 +1,4 @@
-class Calculator {
+class Calc {
     int num = 5;
     
     public int add(int n1, int n2) {
@@ -8,8 +8,8 @@ class Calculator {
 
 public class Stack_And_Heap_04 {
     public static void main(String[] args) {
-        Calculator obj = new  Calculator();
-        Calculator obj1 = new  Calculator();
+        Calc obj = new  Calc();
+        Calc obj1 = new  Calc();
 
         obj.num = 8;
         
