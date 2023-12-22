@@ -1,4 +1,4 @@
-public class Jagged_3D_Array_05 {
+public class Jagged_3D_Array_03 {
     public static void main(String[] args) {
         int num[][] = new int[3][4];
         // int num[][][] = new int[3][4][5];     // 3D Array
