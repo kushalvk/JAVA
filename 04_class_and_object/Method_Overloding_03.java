@@ -1,4 +1,4 @@
-class Calculator {
+class Calculat {
     public int add(int n1, int n2, int n3) {
         return n1 + n2 + n3;
     }
@@ -12,7 +12,7 @@ class Calculator {
 
 public class Method_Overloding_03 {
     public static void main(String[] args) {
-        Calculator cal = new Calculator();
+        Calculat cal = new Calculat();
         int c1 = cal.add(3, 4);
         // int c2 = cal.add(5, 7, 9);
         System.out.println(c1);
