@@ -14,8 +14,8 @@ public class Method_Overloding_03 {
     public static void main(String[] args) {
         Calculator cal = new Calculator();
         int c1 = cal.add(3, 4);
-        int c2 = cal.add(3, 4, 5);
+        // int c2 = cal.add(5, 7, 9);
         System.out.println(c1);
-        System.out.println(c2);
+        // System.out.println(c2);
     }
 }
