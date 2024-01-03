@@ -8,7 +8,7 @@ class Mobile {
     }
 }
 
-public class Static_Variable_04 {
+public class Static_Variable_01 {
     public static void main(String[] args) {
         Mobile obj1 = new Mobile();
         obj1.brand = "Apple";
