@@ -1,4 +1,4 @@
-// yiu can add automatic getters and setters for each variable
+// you can add automatic getters and setters for each variable
 // steps :- set cursor in the class -> right click in the class 
 //       -> click on source Action -> click on generet getters and setters
 //       -> select that vriable you want to generet -> click 'ok'
