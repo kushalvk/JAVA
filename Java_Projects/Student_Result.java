@@ -26,5 +26,7 @@ public class Student_Result {
         } else {
             System.out.println("You are PASS ...Congrats...!");
         }
+
+        s.close();
     }
 }
