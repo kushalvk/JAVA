@@ -7,6 +7,11 @@ class human {
         name = "kushal";
     }
 
+    public human(int a, String n) {
+        age = a;
+        name = n;
+    }
+
     public int getAge() {
         return age;
     }
@@ -24,7 +29,7 @@ class human {
 public class Constractor_01 {
     public static void main(String[] args) {
         human obj = new human();
-        human obj1 = new human(); // at every time we create  objet at that time cnstractor will call automaticaly
+        human obj1 = new human(20, "Kushal"); // at every time we create  objet at that time cnstractor will call automaticaly
         // obj.age = 11; // you can not access drectly
         // obj.name = "kushal";
 
