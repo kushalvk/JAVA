@@ -31,6 +31,7 @@ public class Constractor_01 {
         human obj = new human();
         human obj1 = new human(20, "Kushal"); // at every time we create  objet at that time cnstractor will call automaticaly
 
+
         System.out.println(obj.getAge() + " : " + obj.getName());
     }
 }
