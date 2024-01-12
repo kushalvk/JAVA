@@ -30,14 +30,7 @@ public class Constractor_01 {
     public static void main(String[] args) {
         human obj = new human();
         human obj1 = new human(20, "Kushal"); // at every time we create  objet at that time cnstractor will call automaticaly
-        // obj.age = 11; // you can not access drectly
-        // obj.name = "kushal";
 
         System.out.println(obj.getAge() + " : " + obj.getName());
-
-        // obj.setAge(30);
-        // obj.setName("vaghela");
-
-        // System.out.println(obj.getAge() + " : " + obj.getName());
     }
 }
