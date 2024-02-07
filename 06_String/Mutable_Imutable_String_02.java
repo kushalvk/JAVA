@@ -9,5 +9,8 @@ public class Mutable_Imutable_String_02 {
 
         // Mutable String = changeble
         // Immutable String = unchangeble
+
+        System.out.println(s1);
+        System.out.println(s2);
     }
 }
