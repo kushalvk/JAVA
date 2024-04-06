@@ -1,5 +1,3 @@
-package Access_Modifier_14;
-
 public class C {
     int mk;
 
