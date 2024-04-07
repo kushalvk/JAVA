@@ -36,7 +36,6 @@ public class QustionService {
             // else {
             //     System.out.println("Wrong");
             // }
-            s.close();
         }
 
         System.out.println("You selected answer is as blow");
