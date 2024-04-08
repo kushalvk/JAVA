@@ -1,13 +1,13 @@
-class human {
+class human3 {
     private int age;
     private String name;
 
-    public human() {
+    public human3() {
         age = 12; // if we are not assign any value then this is a by default value.
         name = "kushal";
     }
 
-    public human(int a, String n) {
+    public human3(int a, String n) {
         age = a;
         name = n;
     }
@@ -28,8 +28,8 @@ class human {
 
 public class Constractor_01 {
     public static void main(String[] args) {
-        human obj = new human();
-        human obj1 = new human(20, "Kushal"); // at every time we create  objet at that time cnstractor will call automaticaly
+        human3 obj = new human3();
+        human3 obj1 = new human3(20, "Kushal"); // at every time we create  objet at that time cnstractor will call automaticaly
 
 
         System.out.println(obj.getAge() + " : " + obj.getName());
