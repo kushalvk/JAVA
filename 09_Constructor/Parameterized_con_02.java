@@ -1,13 +1,13 @@
-class human {
+class human4 {
     private int age;
     private String name;
 
-    public human() { // default canstractor
+    public human4() { // default canstractor
         age = 12;
         name = "kushal";
     }
 
-    public human(int a, String n) { // Parameterized canstractor
+    public human4(int a, String n) { // Parameterized canstractor
         age = a;
         name = n;
     }
@@ -28,8 +28,8 @@ class human {
 
 public class Parameterized_con_02 {
     public static void main(String[] args) {
-        human obj = new human();
-        human obj1 = new human(20, "Kushal");
+        human4 obj = new human4();
+        human4 obj1 = new human4(20, "Kushal");
 
         System.out.println(obj.getAge() + " : " + obj.getName());
         System.out.println(obj1.getAge() + " : " + obj1.getName());
