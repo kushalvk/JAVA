@@ -2,7 +2,7 @@
 // steps :- set cursor in the class -> right click in the class 
 //       -> click on source Action -> click on generet getters and setters
 //       -> select that vriable you want to generet -> click 'ok'
-class human {
+class human1 {
     private int age;
     private String name;
 
@@ -22,7 +22,7 @@ class human {
 
 public class Getters_Setters_02 {
     public static void main(String[] args) {
-        human obj = new human();
+        human1 obj = new human1();
         // obj.age = 11; // you can not access drectly
         // obj.name = "kushal";
 
