@@ -1,4 +1,4 @@
-class human {
+class human2 {
     private int age;
     private String name;
 
@@ -20,7 +20,7 @@ class human {
 
 public class This_keyword_03 {
     public static void main(String[] args) {
-        human obj = new human();
+        human2 obj = new human2();
         // obj.age = 11; // you can not access drectly
         // obj.name = "kushal";
 
