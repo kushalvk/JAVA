@@ -14,6 +14,8 @@ public class QustionService {
 
     String select[] = new String[5];
 
+    Scanner s = new Scanner(System.in);
+
     public void playquiz() {
         int i = 0;
         for (Qustion q : questions) {
@@ -26,7 +28,7 @@ public class QustionService {
             System.out.println(q.getOpt4());
 
             System.out.print("Give me your answer :");
-            Scanner s = new Scanner(System.in);
+            
             select[i] = s.nextLine();
             i++;
 
@@ -37,6 +39,7 @@ public class QustionService {
             //     System.out.println("Wrong");
             // }
         }
+        s.close();
 
         System.out.println("You selected answer is as blow");
         for (String Sel : select) {
