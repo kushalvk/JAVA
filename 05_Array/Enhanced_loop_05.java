@@ -1,6 +1,6 @@
 // enhanced loop is "foreach" loop
 
-class student {
+class student1 {
     int rollno;
     String name;
     int marks;
@@ -24,22 +24,22 @@ public class Enhanced_loop_05 {
             System.out.println(n);
         }
 
-        student s1 = new student();
+        student1 s1 = new student1();
         s1.rollno = 1;
         s1.name = "kushal";
         s1.marks = 313;
         
-        student s2 = new student();
+        student1 s2 = new student1();
         s2.rollno = 2;
         s2.name = "om";
         s2.marks = 314;
 
-        student s3 = new student();
+        student1 s3 = new student1();
         s3.rollno = 3;
         s3.name = "harshad";
         s3.marks = 312;
 
-        student Stud[] = new student[3];
+        student1 Stud[] = new student1[3];
         Stud[0] = s1;
         Stud[1] = s2;
         Stud[2] = s3;
@@ -49,7 +49,7 @@ public class Enhanced_loop_05 {
         // }
         
         // this loop is use in ony "array" 
-        for (student std : Stud) {
+        for (student1 std : Stud) {
             System.out.println(std.name + " -> " + std.marks);
         }
     }
