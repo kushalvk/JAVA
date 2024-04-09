@@ -30,14 +30,14 @@ public class QustionService {
             System.out.print("Give me your answer :");
             
             select[i] = s.nextLine();
-            i++;
 
-            // if (select[i].equals(q.getAnswer())) {
-            //     System.out.println("Right");
-            // }
-            // else {
-            //     System.out.println("Wrong");
-            // }
+            if (select[i].equals(q.getAnswer())) {
+                System.out.println("Right");
+            }
+            else {
+                System.out.println("Wrong");
+            }
+            i++;
         }
         s.close();
 
