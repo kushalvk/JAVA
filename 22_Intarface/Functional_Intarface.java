@@ -1,8 +1,8 @@
-@FunctionalInterface // you can give a only one initarface
-interface A1 {
-    void show();
+@FunctionalInterface // you can give a only one Method
+interface A11 {
+    void show(int i);
 }
-// class B11 implements A1 {
+// class B11 implements A11 {
 //     public void show() {
 //         System.out.println("in B show");
 //     }
@@ -10,11 +10,17 @@ interface A1 {
 
 public class Functional_Intarface {
     public static void main(String[] args) {
-        A1 a = new A1() {
-            public void show() {
-                System.out.println("in Anonimuce Show");
+        A11 a = new A11() {
+            public void show(int i) {
+                System.out.println("in Anonimuce Show" + i);
             }
         };
-        a.show();
+        a.show(5);
+
+        A11 aa = (i) -> { // Lambda Expretion (but in a single function)(ex:-Functional Intaface)
+                System.out.println("in Anonimuce Show" + i);
+            };
+        aa.show(7);
+        // Lmbada Expretion will use only with the Funactional Intarface
     }
 }
