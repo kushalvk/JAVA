@@ -29,7 +29,7 @@ public class Race_Canditio_02 {
         t1.start();
         t2.start();
 
-        t1.join();
+        t1.join(); // Throws an exeption to main 'InterruptedException'
         t2.join();
 
         System.out.println(cn.count);
