@@ -47,12 +47,13 @@ public class Collaction_interface {
         // }
 
         // TreeSet // if you work with sorted values then you can use "TreeSet"
-        Collection<Integer> nums3 = new TreeSet<Integer>();
+        Collection<Integer> nums3 = new TreeSet<Integer>(); 
         nums3.add(6);
         nums3.add(7);
         nums3.add(8);
         nums3.add(9);
         nums3.add(5);
+        // nums3.add("5"); // It will give you an error b/s it's not a Integer
 
         Iterator<Integer> values = nums3.iterator();
 
