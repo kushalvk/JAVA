@@ -1,4 +1,4 @@
-class A12 {
+class A13 {
     public void show() throws ClassNotFoundException{
         Class.forName("calc");
     }
@@ -9,7 +9,7 @@ public class Throws {
         System.out.println("clas loaded");
     }
     public static void main(String[] args) {
-        A12 obj = new A12();
+        A13 obj = new A13();
         try {
             obj.show();
         } catch (ClassNotFoundException e) {
