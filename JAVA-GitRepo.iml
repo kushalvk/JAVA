@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/01_basics" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/02_Conditional_Statment" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/03_Loops" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/04_class_and_object" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/05_Array" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/06_String" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/07_Static" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/08_Other_cansept" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/09_Constructor" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/10_Other_cansept" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/11_inheritance" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/12_Overaiding" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/13_packages" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/15_Dynami Method Dispach" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/16_Final keyword" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/17_Object class method" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/18_Casting" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/19_Wrapper Class" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/20_Abstract Keyword" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/21_inner class" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/22_Intarface" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/23_Enum" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/24_Annotation" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/25_Exeption" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/26_User input" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/27_Threads" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/28_Collection" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/29_Reference" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Access_Modifier_14" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Java_Projects" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="postgresql-42.7.3" level="project" />
+  </component>
+</module>

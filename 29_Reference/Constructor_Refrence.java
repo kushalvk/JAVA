@@ -50,9 +50,9 @@ public class Constructor_Refrence {
         //                  .map(name -> new Student(name))
         //                  .toList();
 
-        students1 = names.stream()
-                         .map(Student::new) // Constructor Refrence
-                         .toList();
+//        students1 = names.stream()
+//                         .map(Student::new) // Constructor Refrence
+//                         .toList();
 
         System.out.println(students1);
     }
