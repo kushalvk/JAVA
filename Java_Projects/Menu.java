@@ -121,14 +121,5 @@ public class Menu {
                     System.out.println("Invalid number.");
             }
         } while (num != 5);
-
-
-
-        String sql = "insert into employee values (,,)";
-
-
-
-
-
     }
 }
